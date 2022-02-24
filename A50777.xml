@@ -1,0 +1,1314 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exaltatio alæ The ex-ale-tation of ale / done into verse by T.C.P.</title>
+            <author>Mews, Peter, 1619-1706.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1666</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 41 KB of XML-encoded text transcribed from 18 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A50777</idno>
+            <idno type="STC">Wing M1955</idno>
+            <idno type="STC">ESTC R43452</idno>
+            <idno type="EEBO-CITATION">27651485</idno>
+            <idno type="OCLC">ocm 27651485</idno>
+            <idno type="VID">110157</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A50777)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110157)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1729:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Exaltatio alæ The ex-ale-tation of ale / done into verse by T.C.P.</title>
+                  <author>Mews, Peter, 1619-1706.</author>
+               </titleStmt>
+               <extent>32 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Anno Dom. 1666.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Peter Mews by Wing and NUC pre-1956 imprints.</note>
+                  <note>In Latin and English on facing pages.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ale --  Humor.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-07</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2010-07</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:110157:1" rendition="simple:additions"/>
+            <p>EXALTATIO ALAE.</p>
+            <p>THE EX-ALE-TATION OF ALE.</p>
+            <p>Done into Verſe by T. C. P.</p>
+            <p>Anno Dom. 1666.</p>
+         </div>
+         <div type="prologue">
+            <div xml:lang="lat" type="version">
+               <pb n="2" facs="tcp:110157:2"/>
+               <head>PROLOGUS.</head>
+               <lg>
+                  <l>NEc arte carmen expolire feſtivum</l>
+                  <l>Didici; Camaenis haud faventibus natus:</l>
+                  <l>Nec praepotens vinum dedit, Poetarum</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t intereſſe me putem, ſacris dignum:</l>
+                  <l>Nec hydromeli, vel Cambrienſium, Hyblaeo</l>
+                  <l>Generoſius, Lymphaque Pegaſo nata,</l>
+                  <l>Magis efficax lyrae facit ſciens ut ſim:</l>
+                  <l>Sed neque adeo ſublimis ingens fomes</l>
+                  <l>Alesburia qualem, ac Deorbia princeps,</l>
+                  <l>North-dounaque Rutupina carius vendit</l>
+                  <l>Cerviſia me divum inſerit Choro natum.</l>
+               </lg>
+               <lg>
+                  <l>Quid, inquis, ergo, Rhythmicus Poetaſter</l>
+                  <l>Ita rudis? an doloſior Lucelli ſpes</l>
+                  <l>Refulget? aut ſequax eduliorum te</l>
+                  <l>Paraſitus, huc, miſelle, venter inſtigat?</l>
+                  <l>Horum nihil ſane. Sed atra me bilis</l>
+                  <l>Hebetem licet, rudemque ſemi-paganum</l>
+                  <l>Splenis latenter in fibras mihi repens</l>
+                  <l>(Qua pruriam, et ſcripturiam iners, potens ar<g ref="char:EOLhyphen"/>tis,</l>
+                  <l>Quaſi minxerim in cineres patris, vel Aetnaeo</l>
+                  <l>Famoſus igne poſtulem celebrari.)</l>
+                  <l>Offuciis, ineptiiſque lactatque</l>
+                  <l>Epiſtrophiſque luſitare titillat.</l>
+                  <pb n="4" facs="tcp:110157:3"/>
+                  <l>Quid obvius quod vatibus tabernatim</l>
+                  <l>Qui factitant verſus, canunt, bibunt, ſaltant;</l>
+                  <l>Egone at, Ala ſymbolumque praegnantem</l>
+                  <l>Sale quem, facetiis, leporibus, nugis</l>
+                  <l>Iiſdem facit idem, non reponerem ignavus?</l>
+                  <l>Ala ſed enim neque his diſertior, vulgus</l>
+                  <l>Qua in bibimus, ingenium reddit redunda<g ref="char:EOLhyphen"/>tum;</l>
+                  <l>Neque nos aſymboli ſumus Poetaſtri,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t aurium demus operam et <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> gratis</l>
+                  <l>Quiſquam aut ſine talione (ſobrius, potus)</l>
+                  <l>Laceſſat; impares licet Palaeſtritae,</l>
+                  <l>Quin Bromius ut animat, pares reluctemur.</l>
+                  <l>Pari quis enim? quidve impedit referri par?</l>
+                  <l>Id propter &amp; periculum, vel ingratis</l>
+                  <l>Nolens, volens feci, vicem Poetaſtris</l>
+                  <l>Amuſus ut reddam. Poeta qui non eſt</l>
+                  <l>Auſis tamen, quibus excidit, Poetarum</l>
+                  <l>Aſſecla potis eſt, inter, vel inſtar ut fiat</l>
+                  <l>Pede qui nequit rectus, deambulet <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</l>
+               </lg>
+            </div>
+            <div xml:lang="eng" type="version">
+               <pb n="3" facs="tcp:110157:2"/>
+               <head>THE PROLOG<g ref="char:V">Ʋ</g>E.</head>
+               <lg>
+                  <l>NO skill in polite verſe, and mirth;</l>
+                  <l>(The <hi>Muſes</hi> frowned at my birth;)</l>
+                  <l>Nor potent <hi>Sack</hi> hath dub'd my name</l>
+                  <l>With Title of a <hi>Poets</hi> fame,</l>
+                  <l>No <hi>Walſh Metheglin</hi> (nobler far</l>
+                  <l>Than <hi>Hybla's;</hi> and beyond compare</l>
+                  <l>For <hi>Efficacie,</hi> to that Spring</l>
+                  <l>Which roſe where <hi>Pegaſus</hi> took wing.)</l>
+                  <l>Hath tun'd my <hi>Harp.</hi> No; Nappy <hi>Ale</hi>
+                  </l>
+                  <l>Wits cordial tipple (good and ſtale)</l>
+                  <l>Such as <hi>Alesburie, Darby</hi> cheif</l>
+                  <l>And <hi>North-down</hi> ſells (to Poets greif)</l>
+                  <l>At an high rate) hath rank'd my verſe</l>
+                  <l>Amongſt the <hi>Laureat Choriſters.</hi>
+                  </l>
+                  <l>Why then Poor wretch! doſt rhyme &amp; prate?</l>
+                  <l>Is gain the thing thou aymeſt at?</l>
+                  <l>Or doth thy Gutt, that <hi>Paraſite</hi>
+                  </l>
+                  <l>Egg thee to dare above thy might?</l>
+                  <l>Nor this; nor that; But <hi>Melancholly,</hi>
+                  </l>
+                  <l>Dull as I am, and prone to folly,</l>
+                  <l>Surprizing unaware my ſpleen</l>
+                  <l>(A ſcribling itch I cannot wean;</l>
+                  <l>An artleſſe Art, which drives like mad</l>
+                  <l>To do, what <hi>Reaſon</hi> me forbad;</l>
+                  <l>As vain as he, to get a Name</l>
+                  <pb n="5" facs="tcp:110157:3"/>
+                  <l>That leapt into Mount <hi>Aetna's</hi> flame.)</l>
+                  <l>Fraught with the Kick-ſhaw's of our Time,</l>
+                  <l>Hath ſet me thus a gogg to rhyme.</l>
+               </lg>
+               <lg>
+                  <l>What? when I hear all Taverns ring</l>
+                  <l>With ſuch as club, daunce, rhyme, and ſing;</l>
+                  <l>Should I, whom Ale makes full as wiſe,</l>
+                  <l>In jeſt, and toyes, and fooleries;</l>
+                  <l>Should I alone ſit mute, and ſneak,</l>
+                  <l>While others wits run out and leak?</l>
+                  <l>Their <hi>Ale</hi> is not more eloquent</l>
+                  <l>Then ours, to give their <hi>Muſes</hi> vent:</l>
+                  <l>Nor ſcape we ſhot-free, to be bound</l>
+                  <l>To hear, and plaud their empty ſound;</l>
+                  <l>That ſcribling (whether Wet, or Dry)</l>
+                  <l>They ſhould provoke without reply.</l>
+                  <l>And though upon unequal terms,</l>
+                  <l>
+                     <hi>Bacchus</hi> himſelf ſhall find us Arms</l>
+                  <l>To quit their ſcore. And that's One why</l>
+                  <l>To match theſe Rhymeſters Rhyme, and I</l>
+                  <l>Thus put our ſelves in Jeopardy,</l>
+                  <l>Maugre both <hi>Will,</hi> and <hi>Skill;</hi> and ſo</l>
+                  <l>But play the fool, as Others do.</l>
+                  <l>He that's no Poet, yet may be</l>
+                  <l>For his attempt in ſome degree</l>
+                  <l>Their <hi>Page</hi> or like; and <hi>Hobble</hi> on,</l>
+                  <l>Where feet him fail, as I have done.</l>
+               </lg>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <div xml:lang="lat" type="version">
+               <pb n="6" facs="tcp:110157:4"/>
+               <head>EXALTATIO ALAE.</head>
+               <lg>
+                  <l>NEc ſobrius, nec potus, nec utroque remotus,</l>
+                  <l>Conveni ami cum in Ales-buri valle?</l>
+                  <l>Per faciem ſenſit, mî nitus quod mens ſit</l>
+                  <l>Non laudes deterere nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Tunc ſic me affatus (ut amplexatus</l>
+                  <l>Meminitqne gratus de celebri valle)</l>
+                  <l>Fert animus nuper, Alesburia ſuper</l>
+                  <l>Ediſſerere laudes nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Meque alacrem prorſus, ita denique adorſus</l>
+                  <l>Per ſi quid in Alâ ſit Nectarale?</l>
+                  <l>Ut ani mi follem, exuſcitans tollam,</l>
+                  <l>Quae ſint ad praeconia nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Non auſim hoc, inquam, ne fortè delinquam,</l>
+                  <l>Nec adeo ingenij ſum preditus ſale:</l>
+                  <l>Et ſunt, qui peccare exiſtimant fari</l>
+                  <l>Quae ſunt ad praeconia nobilis Alae.</l>
+               </lg>
+               <pb n="8" facs="tcp:110157:5"/>
+               <lg>
+                  <l>Sed flocci non pendo, nil mali offendo;</l>
+                  <l>Nec eſt quod reverear aliquid tale:</l>
+                  <l>Nam crede Roberto, jamdiù experto,</l>
+                  <l>Eſt virtus in medio nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Nec tamen eſt ſapor, dulciculus vapor,</l>
+                  <l>Qui placido tendens adilia calle</l>
+                  <l>Ventriculum rorat, et gulam adorat.</l>
+                  <l>Fragranti ſalivâ praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Nec blandior Aſpectus, oculis dilectus,</l>
+                  <l>Amaena dum floret in Cyathi valle,</l>
+                  <l>Genis renideſcens, ceu Porrum vireſcens,</l>
+                  <l>Qui color prae aliis eſt nobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Sed animus volo, quem primitùs colo,</l>
+                  <l>Vt ſimul cum corpore ſentiat vale,</l>
+                  <l>Corpuſque animuſque, ut valeant uſque</l>
+                  <l>Acceptum referant nobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Nam anxietas in animi vas,</l>
+                  <l>Aut aliud Cordolium ut repſit lethale,</l>
+                  <l>Nil citiùs medetur, quo cura levetur,</l>
+                  <l>Qùam plenior hauſtus nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Vidua, maritum quae miſit ad Ditem,</l>
+                  <l>Non cogitat ultra crimen Capitale,</l>
+                  <l>Sed anxia cubat, ni denuò nubat,</l>
+                  <l>Titillatu accenſa praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Perbellus eſt ventus, intuſque retentus,</l>
+                  <l>Calfacit ingenium, citatque vitale,</l>
+                  <l>Ingenium quod viget, nec te tui piget,</l>
+                  <l>Hoc debes ingenio nobilis Alae.</l>
+               </lg>
+               <pb n="10" facs="tcp:110157:6"/>
+               <lg>
+                  <l>Nudus qui degit, haud veſtibus eget,</l>
+                  <l>Nec terga dat frigori (ſit Hyemale)</l>
+                  <l>Ventos diffindit, naſoque reſcindit,</l>
+                  <l>Iudutus Amiculo nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Cui nil eſt Demenſi, nil habet et penſi,</l>
+                  <l>Par quamvis edendo ſit Clavo trabali;</l>
+                  <l>Nam famis oblitus, ſimulatque conditus</l>
+                  <l>Praedulci intinctu eſt nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Pauperculus plaudit, &amp; unicè gaudet,</l>
+                  <l>Cui nil eſt in penu lautum, ac dapale,</l>
+                  <l>Hinc Epulas haurit, hinc Menſam inſtaurat,</l>
+                  <l>Cum cruſtâ, cum poculo uobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Opilio, Sator, Meſſor, Tribulator,</l>
+                  <l>Hic ſarculo potens, hic falce malâ;</l>
+                  <l>Hos cape viritìm inteream! ſuim</l>
+                  <l>Ni velint extinguere nobili Alâ.</l>
+               </lg>
+               <lg>
+                  <l>Ferrarius faber, cui ingens labor,</l>
+                  <l>Et follis, cum facie Vulcanali,</l>
+                  <l>Si guttur areſcit, mentiri neſcit</l>
+                  <l>Quin aedes indigitet nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Qnicunque negabit, Miſellus laudabit,</l>
+                  <l>Ad clathros mendicans, vinctuſque falâ,</l>
+                  <l>Compedibus laetus, et pellitur metus,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t guttur immaduit nobili Alá.</l>
+               </lg>
+               <lg>
+                  <l>Mendicaque natio, eui ſors eſt Rogatio,</l>
+                  <l>Neque quidquam in tergo, quod pendeat, quale;</l>
+                  <l>Ditior eſt in pannis, quam Miſer, quotannis</l>
+                  <l>Si anſam attigerit nobilis Alae.</l>
+               </lg>
+               <pb n="12" facs="tcp:110157:7"/>
+               <lg>
+                  <l>Paupertas in mente, tunc eſt pro non Ente,</l>
+                  <l>Jus, cruſta, cum perâ, nil materiale;</l>
+                  <l>Quaſi pediculus cum ſex pedibus</l>
+                  <l>Capriſſat, aculeo nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Qui foveas tergit, dum Sol totus vergit,</l>
+                  <l>Aut laſſus arando, reliquit dentale,</l>
+                  <l>Crepabit nil minus, quam Reges, Reginas,</l>
+                  <l>Faſtigium ſi tetigit nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Ingenio rudi eſt Cos; et incudi</l>
+                  <l>Quod reddis invitâ fit Minervâ tale;</l>
+                  <l>Dat bebeti nuper, Lunam per &amp; ſuper,</l>
+                  <l>Spectare a ſpeculâ nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Tum ſi quis amatur, interritus fatur.</l>
+                  <l>Ingenio Corydon ante rurali,</l>
+                  <l>Glutinatque ſuavia, crepitatque bravia,</l>
+                  <l>Si priùs occurrerit nobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Haec tollit Aurigam, ut deſerat trigam,</l>
+                  <l>Res ruſticas orans Rhetorico ſale?</l>
+                  <l>A fronte, a tergo, fit Aulicus ergo,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t ſtylum exercuit nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Qui dentes exutus, fit lingua ſolutus,</l>
+                  <l>Expectorans ſputus, prout Naturale,</l>
+                  <l>Saltabit inanis, ceu in reſte canis,</l>
+                  <l>Fervore ſi caluit nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Et Clericus bonus, cui legere eſt onus,</l>
+                  <l>Poſt humidum deſicit qua in radicale,</l>
+                  <l>Literulas leget, ſpecillis haud eget,</l>
+                  <l>Vigorem indutus praenobilis Alae.</l>
+               </lg>
+               <pb n="14" facs="tcp:110157:8"/>
+               <lg>
+                  <l>Genae et maxillae reddant laudet mille,</l>
+                  <l>Pallidulae quamvis, &amp; cute nivali,</l>
+                  <l>Hâc namque colorem roſis pulchriorem</l>
+                  <l>Imbutis tinctura dat nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Viden' Antagoniſtis, miſeriſque Sophiſtis,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t aegrae apparent, ſtrigoſaeque malae?</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t buccae flacceſcunt, ſpirituſque vaneſcunt</l>
+                  <l>Alienant qui animos nobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Et poſtquam eſt Byna, capitis Inquilina,</l>
+                  <l>Me poſſe nunc videor Enthuſiaſmo tali,</l>
+                  <l>Quot commoda terrae, tot cuncta referre</l>
+                  <l>Accepta virtutibus nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Hâc perperam uſus, de Muſis paramuſus:</l>
+                  <l>Quae cantitant inſtar Philomelae,</l>
+                  <l>Melodiâ gratâ, larynge roratâ,</l>
+                  <l>Pegaſeio fonte praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Et fidicen gnarus (fide, ceu voce rarus)</l>
+                  <l>Ad ſummum aſcendit hâc, Muſicae ſcalae:</l>
+                  <l>Maceratque pulmonem, ſuperatque Spadonem,</l>
+                  <l>Cantherium inſcendens nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Poeta divinus, vino peregrinus,</l>
+                  <l>Quia non eſt in loculis aliquid tale,</l>
+                  <l>Sublimia pangit, &amp; ſidera tangit,</l>
+                  <l>Inceſſit quem <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Quis lirico ſono, par ELDERTONO?</l>
+                  <l>Qui lepidè luſit, &amp; Muſico ſale,</l>
+                  <l>Veliſque expanſis; prius tamen anſis</l>
+                  <l>Arrepto Carcheſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o nobilis Alae.</l>
+               </lg>
+               <pb n="16" facs="tcp:110157:9"/>
+               <lg>
+                  <l>Sed nec otioſa, dicatur in Proſâ,</l>
+                  <l>Nam genium exacuit ſtyle florali,</l>
+                  <l>Et lingua Culullis fit Ocyor Pullis,</l>
+                  <l>Cum fluat a flumine nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Et Philoſophorum, ſi quis bibit horum,</l>
+                  <l>In ſiliquis Nemo dat operam malè,</l>
+                  <l>Sed nucleum rimatur, &amp; Philoſophatur,</l>
+                  <l>Ad imum, et fundum praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Sit Oxonienſis, da ſexdecim menſis,</l>
+                  <l>Et Circopithecus, dic probet, quod tale;</l>
+                  <l>Sexdecies inventum, melius argumentum</l>
+                  <l>Dat hauſtus a <hi>Botley,</hi> praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Ingenium fovet, linguam proque movet.</l>
+                  <l>Virtutem exauget, quantum ad Morale;</l>
+                  <l>Tum nequis gravetur, ſi paucis laudetur</l>
+                  <l>Morale quod ſpectat praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Eccleſiae prodeſt (Pietatis quod eſt)</l>
+                  <l>Aut noſtri Majores fecerunt malè,</l>
+                  <l>Qui ubique locorum, propter Aedem Sanctorum</l>
+                  <l>Dicaverint aedes praenobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Verum nunc (perhibetur) Lupulata fovetur;</l>
+                  <l>Infandum! nefas tolerari tale;</l>
+                  <l>Nam cum lupulatâ, primum Haereſis nata,</l>
+                  <l>Catholicum Nectar eſt nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Quid debeant Templa, ſunt publicè exempla,</l>
+                  <l>Nam ubi ruinam dant, aut quid fatale,</l>
+                  <l>Paganalia ſtatim, reficiunt vicatim;</l>
+                  <l>Quod ſunt ſarta tecta, dent nobili Alae.</l>
+               </lg>
+               <pb n="16" facs="tcp:110157:10"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="18" facs="tcp:110157:11"/>
+               <lg>
+                  <l>Hanc Veritas dutem, quâ prodit in lucem</l>
+                  <l>Agnoſeit: Arcanaque facit haec palàm;</l>
+                  <l>Qui bibunt, loquentur, quae ſiccis tacentur,</l>
+                  <l>In fundo eſt Veritas. Nobilem Alam!</l>
+               </lg>
+               <lg>
+                  <l>Inſtitiae Amicam hanc meritò dicam,</l>
+                  <l>Menſuris, &amp; numeris quae dat aequale:</l>
+                  <l>Numeri &amp; menſurae, Juſticolis curae,</l>
+                  <l>Et hoc ad praeconia nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>In proximo tendit, quod Martem accendit;</l>
+                  <l>Qui metuit animal haud cubitale,</l>
+                  <l>Jurabit, &amp; ringet, gladiolum ſtringet</l>
+                  <l>Armatus ab animo nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Habet Milites Illa, Magnates è villâ,</l>
+                  <l>Quibus nec lorica, nec ſit lorale;</l>
+                  <l>Sed Scyphis ad morem pugnant Centaurorum,</l>
+                  <l>Armigeri fortes praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Tum ſiquis delirat, Haec mentem inſpirat,</l>
+                  <l>Materiam &amp; verba ne digerat malé,</l>
+                  <l>Dat ore rotundo, ſalibuique faecundo</l>
+                  <l>Aſſeſſor ut prodeat nobilis Alae</l>
+               </lg>
+               <lg>
+                  <l>Aut ſi quis Mercator, lucri ſit Venator,</l>
+                  <l>Emendo, vendendo quod eſt venale,</l>
+                  <l>Quo lutum vitetur, ad focum ſtipuletur,</l>
+                  <l>Teſte ſigillo praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Sed fateor quìdem, haud ſobrius îdem,</l>
+                  <l>(Nam ardua res eſt, dicere VALE)</l>
+                  <l>Simulac potabit, ſibi temperabit,</l>
+                  <l>Quae ſunt leocinia nobilis Alae.</l>
+               </lg>
+               <pb n="20" facs="tcp:110157:12"/>
+               <lg>
+                  <l>Eſt tamen in fatis, quod compenſat ſatis,</l>
+                  <l>Et rectâ tendit ad placidum quale;</l>
+                  <l>Quàm bibas enormis, tàm altum dormis,</l>
+                  <l>Sie malî nil ineſt praenohili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Qui ceſpitant, labant, aut fortè ſi cadaent,</l>
+                  <l>Reſurgere licet adminiculo Pali,</l>
+                  <l>Qui aquâ merguntur, non ſic moriuntur,</l>
+                  <l>Quod falum donatum eſt nobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Si more bibentûm, ad jurgia ventum:</l>
+                  <l>Ne metuas Claſſitum fore mortale;</l>
+                  <l>Sìeò titillet, ut naſiis diſtillet,</l>
+                  <l>Reſtituet gratiam nobilis Ala.</l>
+               </lg>
+               <lg>
+                  <l>Favet huic medicamen, nec injuria tamen,</l>
+                  <l>Horrens Lupulatam, ceu quid Lethale;</l>
+                  <l>Per hanc reddit vitam, domatìm quaeſitam,</l>
+                  <l>Et primas aſcribit nobili Alae.</l>
+               </lg>
+               <lg>
+                  <l>Alamenta, ſorbilla, poſraeque cum illâ.</l>
+                  <l>Quam recens Oxygalam praebet mulctrale,</l>
+                  <l>Multis numeratis, nullum lupulatis</l>
+                  <l>Miſcetur, ſed poculo nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Neque haec mala verba; Lupulus mala herba,</l>
+                  <l>Trant ad nos portata, jus contra Regale;</l>
+                  <l>Lex, O ſi ſervetur! Haec ne miſceretur</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t cuncti participent nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Lex nempe non mala, fovel ALAM ſub Alâ</l>
+                  <l>Nam in qualibet Guria, jus quâ Legale</l>
+                  <l>Sereniſſimo Regi, ſolet Cognitor legi,</l>
+                  <l>A peculit Cognitor nobilis Alae.</l>
+               </lg>
+               <pb n="22" facs="tcp:110157:13"/>
+               <lg>
+                  <l>Quis Dominus ille proediorum, aut villae?</l>
+                  <l>Quae mari, quae terrâ, quae monte, quae valle,</l>
+                  <l>Qui non aequum cenſet, Coronae ut penſet</l>
+                  <l>Jus, &amp; menſuram praenobilis Alae</l>
+               </lg>
+               <lg>
+                  <l>Superior edicta dat Curia ſiricta</l>
+                  <l>Jus prohibens, infra quod ſit, Curiale:</l>
+                  <l>Alae tamen favet, nullique negavit</l>
+                  <l>Quin Guriam adeat nobilis Alae</l>
+               </lg>
+               <lg>
+                  <l>Res-publica multis eſt in ore ſtultis:</l>
+                  <l>Sed ab Hiſpale vinum, &amp; Burdigalâ</l>
+                  <l>Si minùs vehatur, tum demum ſciatur,</l>
+                  <l>Quod Publica res, haec nobilis Ala,</l>
+               </lg>
+               <lg>
+                  <l>Qui ALAE aſſueſcunt, bibuli quieſcunt,</l>
+                  <l>Et Rei nil ſtudent Publicae mali,</l>
+                  <l>Non ſunt Perduelles, flammae jue rebelles</l>
+                  <l>Solato, quod biberint nobilis Alaé.</l>
+               </lg>
+               <lg>
+                  <l>CAMBIVIO detur, quod laudis meretur,</l>
+                  <l>Qui excogitavit (ſi Credimus Walae)</l>
+                  <l>Hoc foelix inventum, ter ſexies centum</l>
+                  <l>Annis ante Chriſtum, praenobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Sed ille Gentilis, &amp; ALA tum vilis;</l>
+                  <l>Quid CHRIST<g ref="char:V">Ʋ</g>S ut mundo jam dixit VA<g ref="char:EOLhyphen"/>LE?.</l>
+                  <l>
+                     <hi>Don davy</hi> ne pipit lupulatam ut fifit,</l>
+                  <l>Sed tot Cwwrwwbibley pot nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Qui Roream colunt, ſuper omnia tollunt,</l>
+                  <l>(Quâ rivulus qniſque dat nomina Valli.)</l>
+                  <l>Et ſenes ubivis, ſunt illic in vivis,</l>
+                  <l>Qui Nectar haud norunt, niſi nobilis Alae.</l>
+               </lg>
+               <pb n="24" facs="tcp:110157:14"/>
+               <lg>
+                  <l>Pictique, Scotique, pugnabant utrique,</l>
+                  <l>Tam abditum fuerat hoc in penetrali;</l>
+                  <l>Sed funditùs Picti, a Scotis devicti,</l>
+                  <l>Quod artem celabant hos Hetheraeale.</l>
+               </lg>
+               <lg>
+                  <l>Verùm hac ſit, an illac, tu prorſus nil fac;</l>
+                  <l>Oportet haberi; non vivitur Kala;</l>
+                  <l>Nam nee Haverhannocks, ſed nec Haverjan<g ref="char:EOLhyphen"/>nocks,</l>
+                  <l>Quod Scotis in votis eſt, nobilis Ala.</l>
+               </lg>
+               <lg>
+                  <l>Nec inficiabor, (foret irritus labor)</l>
+                  <l>Quod multi hinc dixerint ultimum VALE;</l>
+                  <l>Da poculum ori, quàm dulce eſt MORI,</l>
+                  <l>Decoris a ſpiculis nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Innocuis tamen, hoc eſto ſolamen,</l>
+                  <l>Conſciſcit quod ſuum ſibi quiſque fatale:</l>
+                  <l>Nam peccat, nec Byna, vetulave divinae,</l>
+                  <l>Si potus quis potu ſit nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Quot morte offectet, hic ſi quis objectet;</l>
+                  <l>Sit memor et quibus eſt Medicinale;</l>
+                  <l>Lupulata necantur, qui ALA ſanantur,</l>
+                  <l>Quae ſalubris virtus eſt nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Sed longè hoc a re MORTEM nominare,</l>
+                  <l>Convitia nolim ingerere mala,</l>
+                  <l>Quamvis Lupulata ſit lupis enata;</l>
+                  <l>Bonumque ſit omen praenobilis Alae</l>
+               </lg>
+               <lg>
+                  <l>Hoc multis compertum, et exitio certum,</l>
+                  <l>(Archiva ni fallant) exemplo paenali;</l>
+                  <l>Nam pendulus mox fit, qui lupulum coxit,</l>
+                  <l>Lupulatam expertus, quod amarior Ala.</l>
+               </lg>
+               <pb n="26" facs="tcp:110157:15"/>
+               <lg>
+                  <l>ALAM ab alendo, vitalem defendo;</l>
+                  <l>Balanae ſi foret nunc os mihi quale!</l>
+                  <l>Nam parvulum eſt mî, nec tantillulum quí</l>
+                  <l>Praeconia praedicem nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Animus tamen fallit, qui paucula callet,</l>
+                  <l>Ni dixerim nil, ut durat malè:</l>
+                  <l>Sed propter bibendum numeratò ſolvendum,</l>
+                  <l>Hoc unicum onus eſt nobilis Alae.</l>
+               </lg>
+               <lg>
+                  <l>Tune Vir ille bonus; Hoc mî erit Onus,</l>
+                  <l>Feciſti tu ſatis; Dicéndum jam Vale;</l>
+                  <l>Sex calices addam, Obaeratus ſi cadam,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t praeſtem praeconia nobilis Alae.</l>
+               </lg>
+            </div>
+            <div xml:lang="eng" type="version">
+               <pb n="7" facs="tcp:110157:4"/>
+               <head>THE EX-ALE-TATION OF ALE.</head>
+               <lg>
+                  <l>NOt drunken, nor ſober, but neighbour to both,</l>
+                  <l>I met with a friend in Ales-burie vale,</l>
+                  <l>He ſaw by my face, that I was in the caſe</l>
+                  <l>To ſpeak no great harm of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Then did he me greet, &amp; ſaid ſince we meet,</l>
+                  <l>(And he put me in mind of the name of the Dale)</l>
+                  <l>For Ales-buries ſake, ſome pains I would take</l>
+                  <l>And not bury the praiſe of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The more to procure me, then did he adjure me,</l>
+                  <l>If the Ale I drank laſt was nappie &amp; ſtale,</l>
+                  <l>To do it its right, and ſtirr up my Sprite</l>
+                  <l>And fall to commend a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Quoth I, to commend it, I dare not begin,</l>
+                  <l>Leſt therein my credit might happen to faile,</l>
+                  <l>For many men now do count it a ſin,</l>
+                  <l>But once to look towards a Pot of good Ale.</l>
+               </lg>
+               <pb n="9" facs="tcp:110157:5"/>
+               <lg>
+                  <l>Yet I care not a pin, for I ſee no ſuch ſin,</l>
+                  <l>Nor any thing elſe, my courage to quaile;</l>
+                  <l>For this we do find, that take it in kind,</l>
+                  <l>Much virtue there is in a Pot of good Ale:</l>
+               </lg>
+               <lg>
+                  <l>And I mean not the taſt, though thereby much grac't,</l>
+                  <l>Nor the merry-go-down, without pull, or hale,</l>
+                  <l>Perfuming the throat, when the ſtomach's a float</l>
+                  <l>With the fragrant ſweet ſcent of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Nor yet the delight that comes to the ſight,</l>
+                  <l>To ſee how it flow'rs and mantles in graile,</l>
+                  <l>As green as a Leek, with a ſmile in the cheek,</l>
+                  <l>The true Orient colour of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>But, I mean the mind, and the good it doth find,</l>
+                  <l>Not only the body, ſo ſeeble and fraile,</l>
+                  <l>For body and ſoul, may bleſſe the Black Bowl</l>
+                  <l>Since both are beholden to a Pot or good Ale,</l>
+               </lg>
+               <lg>
+                  <l>For when heavineſſe, the mind doth oppreſſe</l>
+                  <l>And ſorrow and greif the heart do aſſayle,</l>
+                  <l>No remedy quicker, than to take off your liquor</l>
+                  <l>And to waſh away cates with a Pot of good Ale</l>
+               </lg>
+               <lg>
+                  <l>The Widdow that buried her husband of late,</l>
+                  <l>Will ſoon have forgotten to weep and to waile,</l>
+                  <l>And think every year twain, till ſhe marrie again,</l>
+                  <l>If ſhe read the contents of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>It is like a Belly-blaſt to cold Heart,</l>
+                  <l>And warm's and engenders the Spirits Vitale,</l>
+                  <l>To keep them from damage all Sp'rits ow their homage</l>
+                  <l>To the Sp'rit of the Butterie, a Pot of good Ale.</l>
+               </lg>
+               <pb n="11" facs="tcp:110157:6"/>
+               <lg>
+                  <l>The naked complaines not for want of a Coat,</l>
+                  <l>Nor on the cold weather will once turn his tayle;</l>
+                  <l>All the way as he goes, he cuts the wind with his noſe;</l>
+                  <l>If he but well wrapt in a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The hungry man takes no thought for his meat,</l>
+                  <l>Though his ſtomach could brook a ten-penny naile,</l>
+                  <l>He quite forgets hunger, thinks on it no longer</l>
+                  <l>If he touch but the Sparks of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The poor man will praiſe it, ſo hath he good cauſe,</l>
+                  <l>That all the year eats neither Partridg, not Quale,</l>
+                  <l>But ſets up his reſt, and makes up his Feaſt,</l>
+                  <l>With a cruſt of Brown-bread, and a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The Shepheard, the Sower, the Threſher, the Mower,</l>
+                  <l>The one with his ſcythe, the other with his flaile,</l>
+                  <l>Take them out by the Pole, on the perill of my ſoul</l>
+                  <l>All will hold up their hands to a Pot of good Ale,</l>
+               </lg>
+               <lg>
+                  <l>The Black-ſmith, whoſe bellow's all Summer do blow</l>
+                  <l>With the fire in his face ſtill, without e're a vaile,</l>
+                  <l>Though his throat be full dry, he will tell you no lie,</l>
+                  <l>But where you may be ſure of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Who ever denayes it, the Priſoner will praiſe it</l>
+                  <l>That begs at the grate, and lyes in the jayle,</l>
+                  <l>For ever in his fetter, he thinks himſelf better,</l>
+                  <l>May he get but a two penny Black Pot of Ale.</l>
+               </lg>
+               <lg>
+                  <l>The Beggar, whoſe portion is alwayes his Prayer,</l>
+                  <l>Not having a tattar to hang on his tayle,</l>
+                  <l>Is as rich in his rags, as the Churl in his bags</l>
+                  <l>If he once but ſhake hands with a Pot of good Ale.</l>
+               </lg>
+               <pb n="13" facs="tcp:110157:7"/>
+               <lg>
+                  <l>It drives his poverty clean out of mind,</l>
+                  <l>Forgetting his Brown-bread, his Wallet, and Male,</l>
+                  <l>He walks in the houſe, like a ſix footed Louſe,</l>
+                  <l>If he once be enricht with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And he that doth dig in the ditches all day,</l>
+                  <l>And wearies himſelf quite at the Plough-tayle,</l>
+                  <l>Will ſpeak no leſſe things, than of Queens, &amp; of Kings,</l>
+                  <l>If he touch but the top of a Pot of good Ale,</l>
+               </lg>
+               <lg>
+                  <l>It is like a Whet-ſtone to a blunt wit,</l>
+                  <l>And makes a ſupply where Nature doth faile;</l>
+                  <l>The dulleſt wit ſoon, will look quite through the Moon,</l>
+                  <l>If his Temples be wet with a Pot of good Ale,</l>
+               </lg>
+               <lg>
+                  <l>Then Dick to his Darling full boldly dare ſpeak,</l>
+                  <l>Though before (ſilly fellow!) his courage did quaile;</l>
+                  <l>He gives her the ſmouch, with his hand on his pouch</l>
+                  <l>It he meet by the way with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And it makes the Carter, a Courtier ſtraight-way;</l>
+                  <l>With Rhetorical termes he will tell his tale,</l>
+                  <l>With courteſies great ſtore, and his Cap up before,</l>
+                  <l>Being ſchool'd but a little with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The old man, whoſe tongue wags faſter than his teeth,</l>
+                  <l>(For old age by Nature doth drivel and drayle,)</l>
+                  <l>Will frig, and will fling, like a Dog in a ſtring,</l>
+                  <l>If he warm his cold blood with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And the good old Clerk, whoſe ſight waxeth dark,</l>
+                  <l>And ever he thinks the Print is too ſmall;</l>
+                  <l>He will ſee every letter and ſay Service better</l>
+                  <l>If he glaze but his eies with a Pot of good Ale.</l>
+               </lg>
+               <pb n="15" facs="tcp:110157:8"/>
+               <lg>
+                  <l>The Cheeks, and the Jaw's to commend it have cauſe,</l>
+                  <l>For where they were late, but even wan and pale,</l>
+                  <l>They will get them a Colour, no Crimſon is fuller,</l>
+                  <l>By the true Dy, and tincture of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Mark her enemies, tho they think themſelv's wiſe,</l>
+                  <l>How meager they look, with how low a waile,</l>
+                  <l>How their cheeks do fall without Sp'rits at all</l>
+                  <l>That alien their minds from a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And now that the Grain's do work in my Brain's,</l>
+                  <l>Me-thinks I were able to give by retale,</l>
+                  <l>Commodities ſtore, a dozen and more,</l>
+                  <l>That flow to Man-kind from a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The Muſes would muſe, any ſhould it miſuſe,</l>
+                  <l>For it makes them to ſing like a Nightingale,</l>
+                  <l>With a lofty trim note, having waſhed their throat</l>
+                  <l>With the Cabaline Spring of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And the Muſician, of any condition,</l>
+                  <l>It will make him reach to the top of his Scale,</l>
+                  <l>It will clear his pipes, and moiſten his Lights</l>
+                  <l>If he drink <hi>alternatìm</hi> a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The Poet divine, that cannot reach Wine,</l>
+                  <l>Becauſe that his mony doth many times faile,</l>
+                  <l>Will hit on the vein, to make a good ſtrein,</l>
+                  <l>If he be but inſpir'd with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>For Ballads, ELDERTON never had Peer,</l>
+                  <l>How went his wit in them, with how merry a gale,</l>
+                  <l>And with all the ſails up, had he been at the Cup,</l>
+                  <l>And waſhed his beard with a Pot of good Ale.</l>
+               </lg>
+               <pb n="17" facs="tcp:110157:9"/>
+               <lg>
+                  <l>And the power of it ſhew's no leſſe in Proſe,</l>
+                  <l>It will file ones phraſe, and ſet forth his tale,</l>
+                  <l>Fill him but a Bowle, it will make his tongue trole</l>
+                  <l>For flowing ſpeech flowes from a Pot of good Ale,</l>
+               </lg>
+               <lg>
+                  <l>And Maſter Philoſopher, if he drink his part,</l>
+                  <l>Will not trifle his time in the huſk, or the ſhale,</l>
+                  <l>But go to the Kernell, by the depth of his Art:</l>
+                  <l>To be found in the bottom of a Pot of good Ale,</l>
+               </lg>
+               <lg>
+                  <l>Give a Scholar of Oxford a Pot of ſixteen;</l>
+                  <l>And put him to prove that an Ape hath no tayle,</l>
+                  <l>And ſixteen times better his wit wil be ſeen,</l>
+                  <l>If you fetch him from <hi>Botley</hi> a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Thus it helps ſpeech and wit: And it hurts not a whitt</l>
+                  <l>But rather doth further the Virtues Morale;</l>
+                  <l>Then think it not much, if a little I touch</l>
+                  <l>The good Morall-parts of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>To the Church and Religion it is a good freind,</l>
+                  <l>Or elſe our Fore-fathers, their wiſdom did faile,</l>
+                  <l>That at every mile, next to the Church-ſtile</l>
+                  <l>Set a Conſecrate houſe to a pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>But now (as they ſay) Beer bears it away;</l>
+                  <l>The more is the pity, if Right might prevail,</l>
+                  <l>Forth with the ſame Beer, came up Hereſie here,</l>
+                  <l>The old Catholique Drink, is a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The Churches much ow, as we all do know;</l>
+                  <l>For when they be drooping, and ready to fall,</l>
+                  <l>By a Whitſon, or Church-ale, up again they ſhall go,</l>
+                  <l>And ow their repairing to a Pot of good Ale.</l>
+               </lg>
+               <pb n="17" facs="tcp:110157:10"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="19" facs="tcp:110157:11"/>
+               <lg>
+                  <l>Truth will do it right, it brings Truth to light,</l>
+                  <l>And many bad matters it helps to revaile;</l>
+                  <l>For they that will drink, will ſpeak what they think,</l>
+                  <l>Tom-tell-troth lyes hid in a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>It is Iuſtices friend, ſhe will it commend,</l>
+                  <l>For all is here ſerv'd by meaſure and tale;</l>
+                  <l>Now true tale, and good Meaſure, are Iuſtices treaſure,</l>
+                  <l>And much to the praiſe of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And next I alledg, it is Fortitudes edg;</l>
+                  <l>For a very Coward that ſhrinks like a ſnayle,</l>
+                  <l>Will ſwear and will ſwagger, and out goes his dagger,</l>
+                  <l>If he be but arm'd with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Yea, ALE hath her Knights, and Squires of degree,</l>
+                  <l>That never wore Corſlet, nor yet ſhirt of Male,</l>
+                  <l>But have fought their fights all, twixt the pot &amp; the wall,</l>
+                  <l>When once they were dubd with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And (ſure) it will make a man ſuddenly wiſe,</l>
+                  <l>Ere-while was ſcarce able to tell a right tale,</l>
+                  <l>It will open his jaw, he will tell you the Law,</l>
+                  <l>As made a Right Bencher of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Or he that will make a bargain to gain,</l>
+                  <l>In buying, or ſetting his goods forth to ſale,</l>
+                  <l>Muſt not plod in the mire, but ſit by the fire</l>
+                  <l>And ſeal up his match with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>But for Soberneſs, needs muſt I confeſs</l>
+                  <l>The matter goes hard; and few do prevaile</l>
+                  <l>Not to goe to deep, but temper to keep:</l>
+                  <l>Such is the Attractive of a Pot of good Ale.</l>
+               </lg>
+               <pb n="21" facs="tcp:110157:12"/>
+               <lg>
+                  <l>But her's an amends, which will makes all friends,</l>
+                  <l>And ever doth tend to the beſt availe,</l>
+                  <l>If you take it too deep, it will make you but ſleep;</l>
+                  <l>So comes no great harm of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>If (reeling) they happen to fall to the ground,</l>
+                  <l>The fall is not great, they may hold by the Raile;</l>
+                  <l>If into the water, they cannot be drown'd,</l>
+                  <l>For that gift is given to a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>If drinking about they chance to fall out;</l>
+                  <l>Fear not the Alarm, tho fleſh be but fraile;</l>
+                  <l>It will prove but ſome blowes, or at moſt a bloody<g ref="char:EOLhyphen"/>noſe,</l>
+                  <l>And friends again ſtrait, with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And Phiſick will favour ALE, as it is bound,</l>
+                  <l>And be againſt Beer, both tooth and nayle;</l>
+                  <l>They ſend up and down all over the Town</l>
+                  <l>To get for their Patients a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Their Ale berries, Cawdels, and Poſſets each one,</l>
+                  <l>And Syllabubs made at the Milking-Pale,</l>
+                  <l>Although they be many, Beer comes not in any,</l>
+                  <l>But all are compoſ'd with a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And in very deed, the Hop's but a weed,</l>
+                  <l>Brought o're againſt Law, and here ſet to ſale,</l>
+                  <l>Would the Law were remov'd and no more Beer brewd</l>
+                  <l>But all good men betake them to a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The Law, that will take it under her Wing,</l>
+                  <l>For at every Law-day, or Moot of the Hale,</l>
+                  <l>One is ſworn to ſerve our Soveraign the King,</l>
+                  <l>In the ancient Office of a Conner of Ale.</l>
+               </lg>
+               <pb n="23" facs="tcp:110157:13"/>
+               <lg>
+                  <l>There is never a Lord of Mannour, or of Town,</l>
+                  <l>By Strand or by Land, by Hill, or by Dale,</l>
+                  <l>But thinks it a Franchiſe, and a Flower of the Crown,</l>
+                  <l>To hold the aſſiſe of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And though there lie writs from the Courts Para<g ref="char:EOLhyphen"/>mount,</l>
+                  <l>To ſtay the proceedings of the Court Paravaile;</l>
+                  <l>Law favours it ſo, you may come, you may goe,</l>
+                  <l>There lies no Prohibition to a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>They talk much of State, both early and late;</l>
+                  <l>But if Gaſcoign, and Spain, their wine ſhould but, ſaile,</l>
+                  <l>No remedy then, with us Engliſh-men,</l>
+                  <l>But the State, it muſt ſtand by a pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>And they that ſit by it, are good men and quiet,</l>
+                  <l>No dangerous Plotters in the Common-weale;</l>
+                  <l>Of Treaſon, or Murder, For they never go further,</l>
+                  <l>Then to call for, and pay for a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>To the praiſe of CAMBIVIUS, that good <hi>Britiſh</hi> King,</l>
+                  <l>That deviſ'd for his Nation, (by the Welchmans tale)</l>
+                  <l>Seventeen hundred years before CHRIST did ſpring,</l>
+                  <l>The happy invention of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>But he was a Paynim, and ALE then vvas rife,</l>
+                  <l>Yet after CHRIST came, and bid us all haile,</l>
+                  <l>St. Taphie tid never trink Peer in her liſe,</l>
+                  <l>But all Cwwrwwhibley a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>The North, they will praiſe it, and praiſe it with paſſion,</l>
+                  <l>(Where every River gives name to a Dale)</l>
+                  <l>There men are yet living, that are of th'old faſhion,</l>
+                  <l>No Nectat they knew but a Pot of good Ale.</l>
+               </lg>
+               <pb n="25" facs="tcp:110157:14"/>
+               <lg>
+                  <l>The Picts, and the Scots, for ALE were at Lots,</l>
+                  <l>So high was the skill, and ſo kept under ſeal;</l>
+                  <l>The Picts were undone, ſlain each mothers ſon,</l>
+                  <l>For not teaching the Scots to make Hether-eale.</l>
+               </lg>
+               <lg>
+                  <l>But hither, or thither, it skills not much whether;</l>
+                  <l>For drink muſt be had, men live not by Keal,</l>
+                  <l>Nor by Havorhannocks, nor by Havor-jannocks,</l>
+                  <l>The thing the SCOTS live on, is a Pot of good Ale,</l>
+               </lg>
+               <lg>
+                  <l>Now, if you will ſay it, I will not denay it,</l>
+                  <l>That many a man it brings to his bale;</l>
+                  <l>Yet what fairer end, can one wiſh to his friend,</l>
+                  <l>Than to die by the dart of a Pot of good Ale?</l>
+               </lg>
+               <lg>
+                  <l>Yet let not the innocent bear any blame,</l>
+                  <l>It is their own doings to break o're the pale;</l>
+                  <l>And neither the Mault, nor the Good-wife in fault,</l>
+                  <l>If any be potted with a Pot of good Ale</l>
+               </lg>
+               <lg>
+                  <l>They tell whom it kills, but ſay not a word,</l>
+                  <l>How many a man lives both ſound and hale,</l>
+                  <l>Tho he drink no Beer any day in the year,</l>
+                  <l>By the Radicall humour of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>But to ſpeak of killing, that am I not willing,</l>
+                  <l>For that in a manner were but to raile;</l>
+                  <l>But Beer hath its name, cauſe it brings to the Buyer</l>
+                  <l>Therefore well-fare ſay I to a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Too many (I wis) with their deaths proved this;</l>
+                  <l>And therefore (if ancient Records do not faile)</l>
+                  <l>He that firſt brew'd the HOP, was rewarded with a ROP<g ref="char:EOLhyphen"/>E,</l>
+                  <l>And found his Beer far more bitter than Ale.</l>
+               </lg>
+               <pb n="27" facs="tcp:110157:15"/>
+               <lg>
+                  <l>O ALE ab alendo, thou liquor of LIFE!</l>
+                  <l>That I had but a mouth as big as a Whale!</l>
+                  <l>For mine is too little, to touch the leaſt tittle,</l>
+                  <l>That belongs to the praiſe of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>Thus (I trow) ſome virtues I have markt you out;</l>
+                  <l>And never a Vice in all this long traile,</l>
+                  <l>But that after the Pot, there cometh a Shot,</l>
+                  <l>And thats the on'ly blot of a Pot of good Ale.</l>
+               </lg>
+               <lg>
+                  <l>With that my friend ſayd, That blot I will bear;</l>
+                  <l>You have done very well, it is time to ſtrike ſaile;</l>
+                  <l>Wee'l have ſix pots more, tho I die on the ſcore,</l>
+                  <l>To make all this good of a Pot of good Ale.</l>
+               </lg>
+            </div>
+         </div>
+         <div type="epilogue">
+            <div xml:lang="lat" type="version">
+               <pb n="28" facs="tcp:110157:16"/>
+               <head>EPILOG<g ref="char:V">Ʋ</g>S.</head>
+               <lg>
+                  <l>PAr pari dicis coeat: Latinae</l>
+                  <l>Barbaco ſed munia civitatis</l>
+                  <l>Potui quis donet, ut inde fiat</l>
+                  <l>Nobilis Ala?</l>
+               </lg>
+               <lg>
+                  <l>Hac pedi, ventri, laterique dives</l>
+                  <l>Cuncta pleno ſuppeditare cornu</l>
+                  <l>Quae poteſt, annon meritó vocetur</l>
+                  <l>Nobilis Ala?</l>
+               </lg>
+               <lg>
+                  <l>Fare, ſodes, Heluo, quiſquis extrà</l>
+                  <l>Quiſquis intrà vis tibi quod voluptas:</l>
+                  <l>Haec utrobique tibi namque praeſtat</l>
+                  <l>Nobilis Ala.</l>
+               </lg>
+               <lg>
+                  <l>Eſt Solaeciſmus; nec enim negabo:</l>
+                  <l>Et Poetaſtris ita <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>ſus eſt, interdum opus et Poetis</l>
+                  <l>Nobilis Ala.</l>
+                  <l>Nam <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> juxta ſonat, ac <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </l>
+                  <l>Et celebre eſt <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> Graeculorum,</l>
+                  <l>Nempe ſons quem Pegaſus excavavit,</l>
+                  <l>Nobilis Ala.</l>
+               </lg>
+               <pb n="30" facs="tcp:110157:17"/>
+               <lg>
+                  <l>Gatiarum chorus, &amp; Minerva</l>
+                  <l>Quo bert, Liber ſimul, &amp; Camaenae,</l>
+                  <l>Par pari fac ſis coeat, Poetae</l>
+                  <l>Nobilis Ala.</l>
+               </lg>
+               <lg>
+                  <l>Nobilem tu quam titulis honeſtis</l>
+                  <l>Nobilem te dat ſalibus jococis,</l>
+                  <l>Mutuò ſic nobilis ipſe, &amp; ipſa</l>
+                  <l>Nobilis Ala.</l>
+               </lg>
+               <lg>
+                  <l>Nec Poetaſtri tamen inficeti</l>
+                  <l>Sunt; neque ALA non duce tu Poeta</l>
+                  <l>Ster potes quondam fieri; faceta eſt</l>
+                  <l>Nobilis Ala.</l>
+               </lg>
+               <lg>
+                  <l>Fac Poetaſtris igitur ſuaque</l>
+                  <l>ALA quat de te meruit, ſuaſque</l>
+                  <l>Gratus ut landes tribuas Patronus</l>
+                  <l>Nobilis Alae.</l>
+               </lg>
+               <trailer>FINIS.</trailer>
+            </div>
+            <div xml:lang="eng" type="version">
+               <pb n="29" facs="tcp:110157:16"/>
+               <head>THE EPILOGUE.</head>
+               <lg>
+                  <l>OF like to like, none but allow.</l>
+                  <l>But ALE which Rome did never know,</l>
+                  <l>How comes it to be Latin now,</l>
+                  <l>And Noble Ale?</l>
+               </lg>
+               <lg>
+                  <l>What back, and bellie doth adorn,</l>
+                  <l>And with a full and merry Horn</l>
+                  <l>Yeelds all things that may ſerve our turn,</l>
+                  <l>Is Noble Ale.</l>
+               </lg>
+               <lg>
+                  <l>Thou that art full up to the chin;</l>
+                  <l>And thou that wear'ſt a ſhining skin;</l>
+                  <l>ALE cauſes both (without, within)</l>
+                  <l>Say, tis Noble Ale.</l>
+               </lg>
+               <lg>
+                  <l>But ALE'S not Latin: who denyes?</l>
+                  <l>Rhymeſters are wont to Barbarize,</l>
+                  <l>And Poets need to glaze their eies,</l>
+                  <l>With Noble Ale.</l>
+               </lg>
+               <lg>
+                  <l>Poet, and Pot ſound much at one;</l>
+                  <l>This to the ancient Greeks was known,</l>
+                  <l>For that Hors-pond in Helicon</l>
+                  <l>Was Noble Ale.</l>
+               </lg>
+               <pb n="31" facs="tcp:110157:17"/>
+               <lg>
+                  <l>Would'ſt have the Graces, Muſes nine,</l>
+                  <l>Pallas, &amp; Bacchus God of wine</l>
+                  <l>Be-friend thee? Pot and Poet joyn</l>
+                  <l>With Noble Ale.</l>
+               </lg>
+               <lg>
+                  <l>Title ALE noble, as tis fit,</l>
+                  <l>For that ennobles thee with wit,</l>
+                  <l>So both are noble, thou, and it</l>
+                  <l>Is Noble Ale.</l>
+               </lg>
+               <lg>
+                  <l>Hence Rhymeſters get a lick ſometime,</l>
+                  <l>And ALE will make of thee a Rhyme-</l>
+                  <l>Ster too; tacetious and whym</l>
+                  <l>Is Noble Ale.</l>
+               </lg>
+               <lg>
+                  <l>To Rhymeſters therefore give ſome praiſe,</l>
+                  <l>To me, as it deſerv's alwayes,</l>
+                  <l>And be a patron all thy dayes</l>
+                  <l>To Noble Ale.</l>
+               </lg>
+               <trailer>THE END.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="song_upon_ale">
+            <pb n="32" facs="tcp:110157:18"/>
+            <head>ALE Aele-vated.</head>
+            <lg>
+               <l>WHen the Chill <hi>Chirocco</hi> blows,</l>
+               <l>And Winter tells a heavy Tale;</l>
+               <l>When Pyes, and Dawes, and Rooks, and Crows</l>
+               <l>Do ſit and curſe the Froſts and Snows,</l>
+               <l>Then give us <hi>ALE</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>ALE</hi> in a <hi>Saxon</hi> Rumkin then,</l>
+               <l>Such as will make Grim Malkin prate;</l>
+               <l>Bids Valour Burgen in Tall men;</l>
+               <l>Quickens the Poets Wit and Pen;</l>
+               <l>Deſpiſeth Fate.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>ALE</hi> which the abſent Battle fights;</l>
+               <l>That formes the March of <hi>Swediſh</hi> Drums,</l>
+               <l>Diſputes the Princes Laws and Rights;</l>
+               <l>What's done, and paſt, tells mortall Wights,</l>
+               <l>And what's to come.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>ALE</hi> that the Plough mans heart up keeps,</l>
+               <l>And equals it to Tyrants Thrones;</l>
+               <l>That wipes the eye, which over-weeps</l>
+               <l>And lulls in ſweet and dainty ſleeps</l>
+               <l>Their weary Bones.</l>
+            </lg>
+            <lg>
+               <l>Grand-Child of <hi>Ceres,</hi> Barley's Daughter,</l>
+               <l>Wines Emulous Neighbour (if but ſtale)</l>
+               <l>Ennobling all the Nymphs of th' Water,</l>
+               <l>And filling each Mans heart with laughter.</l>
+               <l>Ah! Give me <hi>ALE.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>
